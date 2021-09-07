@@ -1,142 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="SiteStyle/style.css" type="text/css"/>
-    <link rel="Javacript" href="scrip.js">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Kodunity-Tv</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user scalable=no">
+    <meta name="keywords" content="paginas web, programacion, developer, desarrollo de paginas web, full stack-developer">
+    <meta name="author" content="Juan Carlos Serrano Rodriguez" />
+    <meta name="copyright" content="Juan Carlos Serrano Rodriguez" />
+    <meta name="robots" content="index,Follow"/>
+    <link rel="stylesheet" href="Css/main.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kodunity-Tv Home</title>
 </head>
-
-
-
-   <div class="Portada">
+<body>
   
-        <img src="Images/Logo Kodunity 2021.png" width="100%" height="300px" alt="logo de Kodunity">
-    
-   </div>
-
-    <header>
-        <nav>
-     
-             <ul>
+  <div class="content">
+      <!-- Navegacion del Navbar-->
+    <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn"><i class="fa fa-bars" aria-hidden="true"></i></label>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="briefcase.html">Briefcase</a></li>
+    <li><a class="contacto" href="mailto:https://kodunityworld@gmail.com">Contact Us</a></li>
+    </ul>
+   </nav>
+  </div>
   
-             <li class="Home"><a href="index.html"><i class="fa fa-home" ></i><span class="icon-house"></span>Home</a></li>
-   
-             <li><a href="Briefcase.html"><i class="fa fa-briefcase"></i><span class="icon-rocket"></span>Briefcase</a></li>
-  
-             <li><a href="Services.html"><i class="fa fa-cogs"></i><span class="icon-tool">Services</span></a></li>
-   
-             <li><a href="VideoTutorials.html"><i class="fa fa-play-circle" aria-hidden="true"></i><span></span>VideoTutorials</a></li>
-    
-             <li><a href="mailto:kodunityworld@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i><span></span>Contact Us</a></li>
-
-             </ul>  
-    
-        </nav>
-        
-    </header>
-
-    
-
-    <div class="presentacion">
-
-    <div class="img-presentacion">
-       
-            <img src="Images/ui design .jpg" width="100%" height="300px" alt="Work  in progress"> 
+  <!-- Div para Imagen de presentacion-->
+  <div class="portada">
+    <img src="Images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="Logo de presentacion">
     </div>
     
-    <div class="about-us">
-            <h1>¿Quiénes Somos?</h1>
- 
-                <p>
-            Nos especializamos en Diseño de Páginas Web, 
-            Programador,
-            Desarrollador Android y iOS,
-            Full Stack Developer, Gamer y YouTuber.
-                </p>
+  <div class="footer">
+    <footer>
+    <form action="#">
+
+    <h1>Subscribe to keep up to date with our projects</h1>
+    <div class="input">
+    <input type="email" class="email" placeholder="Enter your email here" required="">
     </div>
 
-
-    <div class="about">
-        <h2> About Us</h2>
-             <p>
-            We specialize in Web Page Design,
-            Programmer,
-            Android and iOS developer,
-            Full Stack Developer Gamer and YouTuber.
-             </p>
+    <div class="button">
+    <input type="submit" class="boton" value="Submit" name="Submit"  >
     </div>
-    </div>
-   
-
-
- 
-   <footer>
-    
-   <div class="colum1">
-    
-       <h1>Nav Directions</h1>
-  
-           <ul class="NavDirection">            
-    
-               <li><a href="index.html" style="color:snow;">Home</a></li>
-    
-               <li><a href="Briefcase.html" style="color:snow;">Briefcase</a></li>
-    
-               <li><a href="Services.html" style="color:snow;">Services</a></li>
-    
-               <li><a href="VideoTutorials.html" style="color: snow;">VideoTutorials</a></li>
-
-           </ul>
-  
-    </div>
-
-    <div class="colum2">
-  
-       <h1>Social Networks</h1>
-    
-    </div>
-    
+    </form>
+    <!-- Redes del Footer-->
     <div class="redes">
-        
-        <ul class="SocialMedia">
-    
-            <li><a href="https://www.facebook.com/KodunityTV"><i class="fa fa-facebook-square"></i></a><label>Follow us on Facebook</label></li>
-  
-            <li><a href="https://twitter.com/KodunityTV"><i class="fa fa-twitter-square"></i></a><label>Follow us on Twitter</label></li>
-  
-            <li><a href="https://www.instagram.com/kodunitytv/"><i class="fa fa-instagram"></i></a><label>Follow us on Instagram</label></li>
-    
-            <li><a href="https://www.youtube.com/c/KodunityTV"><i class="fa fa-youtube-square"></i></a><label>Follow us on YouTube</label></li>
+    <a href="https://www.facebook.com/KodunityTV" target="_blank" rel="noopener" title="Follow us on Facebook"><i class="fa fa-facebook circle"></i></a>
+    <a href="https://twitter.com/kodunitytv" target="_blank" rel="noopener" title="Follow us on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.youtube.com/c/KodunityTV" target="_blank" rel="noopener" title="Follow us on YouTube"><i class="fa fa-youtube-play"></i></a>
+    <a href="https://github.com/Kodunity" target="_blank" rel="noopener" title="Follow us on Github"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/juan-carlos-serrano-rodr%C3%ADguez-0722a01a4/" target="_blank" rel="noopener" title="Follow us on Linkedin"><i class="fa fa-linkedin"></i>
+</a>
+   </div>
    
-         </ul>
-    
-    </div>
-
-
-    <div class="colum3">
-  
-         <h1>Contact Us</h1>
-
-             <li><a href="mailto:kodunityworld@gmail.com" style="color:snow;">Kodunityworld@gmail.com</a></li>
-    
-             <li><a href="mailto:Asistencia@kodunity-tv.xyz" style= "color:snow;">Asistencia@Kodunity-tv.xyz</a></li>
-    
-    </div>
-    
-    <div class="copyrights">
-  
-         <p>&copy; 2019-2021 All rights reserved.</p>
-    
-    </div>
-    
     <div class="rights">
-        
-         <p>Developed and designed by Kodunity-TV.</p>
+    <h5> &copy;All rights reserved  |Kodunity-Tv</h5>
     </div>
-    
-</footer>
+
+    <div class="design">
+    <p>Designed by <span>Kodunity-Tv</span></p>
+    </div>
+    </footer>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+
 </body>
 </html>
