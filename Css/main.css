@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.content{
+    width: 100%;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 548px;
+    position: absolute;
+}
+
+nav{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   position: relative;
+   width: auto;
+   height: 35px;
+   background: #207EA8;
+
+}
+
+@media screen and (max-width: 320px) and (orientation: portrait) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: cornflowerblue;
+        margin-top: 0;
+}
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    z-index: 1;
+}
+ 
+nav a:hover{
+    background: #454545;
+    position: relative;
+}
+
+@media screen and (max-width: 320px) and (orientation: portrait) {
+    nav{
+        height: 120px;
+    }
+    nav a {
+        width: 50px
+    }
+    .contacto{
+        display: inline-flex;
+        width: 120px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 65px;
+    }
+}
+
+.redes{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: -28px 0 0 0;
+  }
+
+.redes a{
+    margin: 0 10px 0 0;
+}
+
+@media screen and (max-width: 320px) and (orientation: portrait) {
+.redes{
+margin: 0 15px 0 0;
+justify-content: center;
+align-items: center;
+width: 320px;
+background: cornflowerblue;
+}
+}
+
+.fa-facebook.circle,
+.fa-youtube-play,
+.fa-github{
+    font-size: 20px;
+    height: 27px;
+}
+
+i.fa-facebook.circle{
+    color:#1877f2;
+}
+
+i.fa.fa-youtube-play{
+    color: red;
+}
+
+i.fa-github{
+    color: #000;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background: #454545;
+    position:absolute;
+}
+
+footer h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.input{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    width: 300px;
+    text-align: center;
+    background: #1B8765;
+    height: 25px;
+    border-radius: 15px;
+    margin: 0 0 10px 0;
+
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.button{
+    text-align: center;
+}
+
+.boton{
+    width: 300px;
+    height: 30px;
+    background: #1B8765;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.rights h5{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: .9rem;
+    margin-bottom: -10px;
+}
+
+.design{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: .9rem;
+    margin-bottom: -10px;
+}
